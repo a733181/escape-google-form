@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>六角西餐廳</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="container mx-auto">
+    <h1 class="text-2xl text-center my-6">六角西餐廳</h1>
+    <form
+      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeqQyKlgR_85faOkpIWZjyRbykLWo9880jOjkCVi6Cyyz1wGA/formResponse"
+      method="POST"
+    >
+      <div class="flex mb-4 flex-col lg:flex-row">
+        <div class="mb-4 lg:mb-0 lg:mr-2 w-full">
+          <label for="name">姓名</label>
+          <input
+            type="text"
+            id="name"
+            name="entry.1893514353"
+            class="border w-full mt-2 p-2"
+            placeholder="請輸入姓名"
+          />
+        </div>
+        <div class="w-full">
+          <label for="phone">電話</label>
+          <input
+            type="tel"
+            name="entry.1609056801"
+            id="phone"
+            class="border w-full mt-2 p-2"
+            placeholder="請輸入電話09xxxxxxxx"
+          />
+        </div>
+      </div>
+      <div class="mb-4">
+        <label for="date">用餐日期</label>
+        <input
+          type="date"
+          id="date"
+          name="entry.1734072234"
+          class="border w-full mt-2 p-2"
+        />
+      </div>
+      <div class="mb-4">
+        <label for="people">用餐人數</label>
+        <select
+          name="entry.499392558"
+          class="border w-full mt-2 p-2"
+          id="people"
+        >
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </div>
+      <div class="mb-6">
+        <label for="other">其他項目</label>
+        <div class="my-2">
+          <input
+            type="checkbox"
+            name="entry.1373181890"
+            id="child-seat"
+            value="需要兒童座椅"
+            class="mr-1.5"
+          />
+          <label for="child-seat">需要兒童座椅</label>
+        </div>
+        <div class="mb-2">
+          <input
+            type="checkbox"
+            name="entry.1373181890"
+            id="vegetarian"
+            value="素食餐點"
+            class="mr-1.5"
+          />
+          <label for="vegetarian">素食餐點</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            name="entry.1373181890"
+            id="smoking"
+            value="吸煙區"
+            class="mr-1.5"
+          />
+          <label for="smoking">吸煙區</label>
+        </div>
+      </div>
+      <button class="bg-black text-white w-full py-2">送出</button>
+    </form>
+  </body>
+</html>
